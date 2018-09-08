@@ -1,0 +1,154 @@
+.impression{
+    position: absolute;
+   top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #94ff9e;
+}
+.a{
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    width: 300px;
+    height: 500px;
+    background: #e6c8ff;
+    border-radius: 4px;
+}
+.b{
+    position: absolute;
+    width: 750px;
+    height: 200px;
+    top: 350px;
+    left: 150px;
+    background: #ffe1c8;
+    border-radius: 4px;
+}
+.b .c{
+    position: absolute;
+    left: 500px;
+    top: 50px;
+    color: black;
+    font-size: 16px;
+}
+.b .d{
+    position: absolute;
+    left: 550px;
+    top: 100px;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    color: rgba(10, 5, 13, 0.4);
+    background: #fff;
+    font-size: 15px;
+    line-height: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.b .d:hover{
+    background: #958fff;
+    font-size: 16px;
+}
+.div1{
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    top: 130px;
+    left: 20px;
+    background: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+    border-radius: 4px;
+}
+.div11{
+    position: absolute;
+    width: 180px;
+    height: 30px;
+    top: 128px;
+    left: 105px;
+    background: #ffffff;
+    font-size: 15px;
+    line-height: 30px;
+    border-radius: 4px;
+}
+.div2{
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    top: 190px;
+    left: 20px;
+    background: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+    border-radius: 4px;
+}
+.div22{
+    position: absolute;
+    width: 180px;
+    height: 30px;
+    top: 184px;
+    left: 105px;
+    background: #ffffff;
+    font-size: 15px;
+    line-height: 30px;
+    border-radius: 4px;
+}
+.to{
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    right: 80px;
+    animation:s 1s infinite alternate;
+}
+@keyframes s {
+    100% {
+        box-shadow: 0 0 400px #20ff08; /*阴影   水平  垂直 模糊半径 颜色*/
+        transform:scale(1.2);
+    }
+}
+.zong{
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    background: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+    border-radius: 4px;
+}
+.aa{
+    position: absolute;
+    top: 300px;
+    left: 40px;
+    background: rgba(0, 0, 0, 0.43);
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+.ss{
+    position: absolute;
+    top: 300px;
+    left: 180px;
+    background: rgba(0, 0, 0, 0.43);
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+.aa:hover{
+    background: #958fff;
+    font-size: 16px;
+}
+.ss:hover{
+    background: #958fff;
+    font-size: 16px;
+}
+.r{
+    position: absolute;
+    top: 380px;
+    left: 60px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
