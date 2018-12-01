@@ -1,10 +1,15 @@
 .impression{
     position: absolute;
+    width: 100%;
+    height: 100%;
    top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: #94ff9e;
+}
+img{
+    width: 100%;
+    height: 100%;
 }
 .a{
     position: absolute;
@@ -12,7 +17,7 @@
     left: 250px;
     width: 300px;
     height: 500px;
-    background: #e6c8ff;
+    background: rgba(157, 136, 182, 0.33);
     border-radius: 4px;
 }
 .b{
@@ -21,15 +26,24 @@
     height: 200px;
     top: 350px;
     left: 150px;
-    background: #ffe1c8;
+    background: rgba(89, 84, 220, 0.42);
     border-radius: 4px;
+    border-top-width:50px;        /*设置上边框宽度*/
+    border-bottom-width:5px;    /*设置下边框宽度*/
+    border-left-width:50px;      /*设置左边框宽度*/
+    border-right-width:5px;     /*设置右边框宽度*/
+    border-top-color:#000000;   /*设置上边框颜色*/
+    border-bottom-color:#000000;/*设置下边框颜色*/
+    border-left-color:#000000;  /*设置左边框颜色*/
+    border-right-color:#000000; /*设置右边框颜色*/
+
 }
 .b .c{
     position: absolute;
     left: 500px;
     top: 50px;
-    color: black;
     font-size: 16px;
+    color: #20ff08;
 }
 .b .d{
     position: absolute;
@@ -39,11 +53,11 @@
     height: 30px;
     text-align: center;
     color: rgba(10, 5, 13, 0.4);
-    background: #fff;
     font-size: 15px;
     line-height: 30px;
     border-radius: 4px;
     cursor: pointer;
+    color: aqua;
 }
 .b .d:hover{
     background: #958fff;
@@ -97,16 +111,19 @@
 }
 .to{
     position: absolute;
-    top: 30px;
+    top: 70px;
     left: 80px;
-    right: 80px;
+    width: 150px;
+    height: 20px;
+    tab-size: 30px;
+    text-align: center;
     animation:s 1s infinite alternate;
 }
 @keyframes s {
     100% {
-        box-shadow: 0 0 400px #20ff08; /*阴影   水平  垂直 模糊半径 颜色*/
-        transform:scale(1.2);
-    }
+         box-shadow: 0 0 400px #20ff08; /*阴影   水平  垂直 模糊半径 颜色*/
+         transform:scale(1.2);
+     }
 }
 .zong{
     position: absolute;

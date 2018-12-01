@@ -1,0 +1,73 @@
+.a {
+    width: 600px;
+    height: 400px;
+}
+.qq{
+    width: 100%;
+    height: 100%;
+
+}
+.a1{
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    top: 380px;
+    left: 900px;
+}
+h1 {
+    font-size: 100px;
+    color: brown;
+}
+
+.b {
+    color: #0a050d;
+    width: 100%;
+    height: 100%;
+    top: 350px;
+    background: rgba(210, 210, 210, 0.22);
+}
+
+.dou {
+    position: absolute;
+    width: 100px;
+    height: 120px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 100px;
+
+}
+.po{
+    position: absolute;
+    width: 100px;
+    height: 120px;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 480px;
+}
+.cang{
+    position: absolute;
+    width: 100px;
+    height: 120px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 880px;
+}
+.qiong{
+    position: absolute;
+    width: 100px;
+    height: 120px;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 1280px;
+}
+.tou{
+    width: 100%;
+    height: 50px;
+    size: 30px;
+    background: #687ea4;
+
+}
+td{
+    text-align: center;
+
+}

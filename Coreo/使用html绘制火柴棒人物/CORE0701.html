@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绘制矩形</title>
+</head>
+<body>
+<canvas id="canvas" style="border: 1px solid #000">
+    你的浏览器不支持canvas
+</canvas>
+<script type="application/javascript">
+    var a = document.getElementsByName("canvas");//获取画布对象
+    var cxt = a.getContext("2d");//使用getContext获取当前2D的上下文对象
+    cxt.fillStyle="rgb(0,0,155)"//填充颜色
+    cxt.fillRect(20,20,100,100)//绘制无边框矩形
+    cxt.strokeRect(150,20,100,100);//绘制有边框矩形
+</script>
+</body>
+</html>

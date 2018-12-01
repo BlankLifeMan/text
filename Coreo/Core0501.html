@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+        .one{
+            width: 60%;
+            margin: 10px auto;
+            background-color: #9eeeff;
+            text-align: center;
+        }
+        .Submission{
+            background-color: coral;
+            width: 50px;
+            height: 25px;
+            margin: 10px auto;
+        }
+        .Submission:hover{
+            width: 50px;
+            height: 25px;
+            border-radius:10px ;
+            background-color: darkgray;
+
+        }
+        input:hover{
+            background-color: #ffe1c8;
+            color: #000000;
+            border-width: 2px;
+            border-color: red;
+        }
+        a{
+            text-decoration:none;
+        }
+        th{
+            width: 100px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="one">
+    <h1><a href="#">用户注册</a></h1>
+    <form style="border-width: 2px;border-color: red" action="/Login/LoginServlet" method="post">
+        <table style="margin: auto">
+            <tr>
+                <th>
+                    姓名：
+                </th>
+                <td>
+                    <input type="text" name="a" value="请输入您的姓名！" >
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    密码：
+                </th>
+                <td>
+                    <input type="password" name="b" size="20" maxlength="25">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    确认密码：
+                </th>
+                <td>
+                    <input type="password" name="c" size="20" maxlength="25" >
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Enail：
+                </th>
+                <td>
+                    <input type="email" name="d" size="20" maxlength="25" >
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    电话：
+                </th>
+                <td>
+                    <input type="text" name="e" size="20" maxlength="25">
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="提交" class="Submission">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="reset" value="重置" class="Submission">
+    </form>
+</div>
+</body>
+</html>
